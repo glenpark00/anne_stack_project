@@ -1,0 +1,23 @@
+{
+  "name": "anne_stack_project",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "webpack": "npx webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "apoc": "^2.1.6",
+    "express": "^4.17.1",
+    "neo4j-driver": "^4.1.1"
+  }
+}
